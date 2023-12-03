@@ -1,0 +1,30 @@
+RUTA BASE SERVIDOR:
+https://storage.googleapis.com/stan-us-c1-backend-bucket/stan_emails/ 
+
+- bienvenido: 
+https://i.imgur.com/ab1sIuS.png
+
+- bienvenido azul:
+https://i.imgur.com/QZfWSty.png
+
+- avatar:
+https://i.imgur.com/vhJmyru.png
+
+- confirma tu email:
+https://i.imgur.com/sdKT161.png
+
+- confirma tu email v2:
+https://i.imgur.com/2prO1SS.png
+
+- boton confirmar: 
+https://i.imgur.com/1QS00cr.png
+
+- ilustracion:
+https://i.imgur.com/SMDSV7H.png
+
+- bg color:
+https://i.imgur.com/QEDpVFW.png
+
+- bg color white:
+https://i.imgur.com/nbU3Ntf.png
+

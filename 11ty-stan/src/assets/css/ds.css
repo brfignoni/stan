@@ -1,0 +1,47 @@
+/*--- Font Sizes ---*/
+.fs-xs {
+  font-size: 14px;
+}
+.fs-s {
+}
+.fs-m {
+  font-size: 18px;
+}
+.fs-l {
+  font-size: 20px;
+}
+.fs-xl {
+  font-size: 26px;
+}
+/*--- Colors ---*/
+.c-primary-blue {
+  color: #021b3b;
+}
+.c-secondary {
+  color: #ff4f00;
+}
+.c-white {
+  color: #fff;
+}
+.c-gray-1 {
+  color: #262940;
+}
+.c-gray-6 {
+  color: #e9eaec;
+}
+/*--- Background Colors ---*/
+.bgc-primary-blue {
+  background-color: #021b3b;
+}
+.bgc-secondary {
+  color: #ff4f00;
+}
+.bgc-white {
+  background-color: #fff;
+}
+.bgc-gray-1 {
+  background-color: #262940;
+}
+.bgc-gray-1 {
+  background-color: #e9eaec;
+}
