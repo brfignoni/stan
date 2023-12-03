@@ -5,7 +5,7 @@ const fs = require("fs");
 module.exports = async function (data) {
   let result = [];
 
-  let files = await globby("src/orden/*.*");
+  let files = await globby("src/emails/*.*");
 
   for (let i = 0; i < files.length; i++) {
     let content = fs.readFileSync(files[i], "utf8");
