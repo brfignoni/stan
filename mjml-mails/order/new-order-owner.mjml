@@ -41,7 +41,7 @@
       <mj-class name="space-right" padding-right="12px" />
       <mj-class name="space-bottom" padding-bottom="12px" />
       <mj-class name="space-top" padding-top="12px" />
-      <mj-class name="detail"  pading="12px 16px"/>
+      <mj-class name="detail" pading="12px 16px" />
       <!-- <mj-class name="wrapper" background-color="#FFFFFF" /> -->
     </mj-attributes>
     <mj-style inline="inline">
@@ -55,8 +55,12 @@
       border-collapse:separate; border-radius:20px; background-color: #FFFFFF;
       margin-left: 24px; margin-right: 24px; padding: 32px;} /*colors*/
       .color-gray-white {color: #FFFFFF;} .color-secondary {color: #FF4F00;}
-      /*general*/ *:first-child {margin-top: 0;} *:last-child
-      {margin-bottom: 0;} .outer-container { padding: 60px 24px 24px 24px; } a { color: #FF4F00;}
+      /*general*/ *:first-child {margin-top: 0;} *:last-child {margin-bottom:
+      0;} .outer-container { padding: 60px 24px 24px 24px; } a { color: #FF4F00;
+      } /*mini-card*/ .mini-card { border-collapse:separate; border-radius: 8px;
+      border: 1px solid #E9EAEC; padding: 12px 16px; box-shadow: 0px 0px 18px
+      4px rgba(2, 27, 59, 0.08);} .mini-card p { font-size: 14px; margin: 0 0
+      3px 0;}
     </mj-style>
   </mj-head>
 
@@ -66,7 +70,7 @@
       <mj-section>
         <mj-column>
           <mj-image
-            src="../images/stan-logo-white.png"
+            src="https://stan-mjml.netlify.app/images/stan-logo-white.png"
             alt="stan logo"
             width="130px"
           />
@@ -110,7 +114,9 @@
       <!-- Order | item -->
       <mj-section mj-class="space-top">
         <mj-column mj-class="space-right" width="12%" vertical-align="middle"
-          ><mj-image src="../images/product.png" alt="camera"
+          ><mj-image
+            src="https://stan-mjml.netlify.app/images/product.png"
+            alt="camera"
         /></mj-column>
         <mj-column width="88%" vertical-align="middle">
           <mj-text> Cámara vintage tipo arte. </mj-text>
@@ -119,7 +125,9 @@
       <!-- Order | item -->
       <mj-section mj-class="space-top">
         <mj-column mj-class="space-right" width="12%" vertical-align="middle"
-          ><mj-image src="../images/product.png" alt="camera"
+          ><mj-image
+            src="https://stan-mjml.netlify.app/images/product.png"
+            alt="camera"
         /></mj-column>
         <mj-column width="88%" vertical-align="middle">
           <mj-text> Cámara vintage tipo arte. </mj-text>
@@ -178,26 +186,22 @@
       </mj-section>
 
       <!-- Coverage -->
-      <mj-section mj-class="detail">
+      <mj-section mj-class="detail" css-class="mini-card">
         <mj-column>
           <mj-text mj-class="fsize-xs">
-            <span class="color-secondary">Cobertura Stan:</span>
-            <span>Daños</span></mj-text
-          >
-        </mj-column>
-      </mj-section>
-      <mj-section mj-class="space-top">
-        <mj-column>
-          <mj-text mj-class="fsize-xs">
-            En la app podrás ver los equipos con cobertura.
-        </mj-column>
-      </mj-section>
-      <mj-section mj-class="space-top">
-        <mj-column>
-          <mj-text mj-class="fsize-xs">
-            <a href="https://www.stan.community/cobertura-stan/" target="_blank">
-            Conocer más sobre los planes
-            </a>
+            <p>
+              <span class="color-secondary">Cobertura Stan:</span>
+              <span>Daños</span>
+            </p>
+            <p>En la app podrás ver los equipos con cobertura.</p>
+            <p>
+              <a
+                href="https://www.stan.community/cobertura-stan/"
+                target="_blank"
+              >
+                Conocer más sobre los planes
+              </a>
+            </p>
           </mj-text>
         </mj-column>
       </mj-section>
