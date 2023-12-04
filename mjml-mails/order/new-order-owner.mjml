@@ -33,34 +33,32 @@
       <mj-class name="mj-base" color="" />
       <mj-class
         name="mj-divider"
-        padding-top="20px"
-        padding-bottom="20px"
+        padding-top="16px"
+        padding-bottom="16px"
         border-width="1px"
         border-color="#E9EAEC"
       />
       <mj-class name="space-right" padding-right="12px" />
       <mj-class name="space-bottom" padding-bottom="12px" />
-      <mj-class name="space-top" padding-top="12px" />
+      <mj-class name="space-top" padding-top="8px" />
       <mj-class name="detail" pading="12px 16px" />
       <!-- <mj-class name="wrapper" background-color="#FFFFFF" /> -->
     </mj-attributes>
     <mj-style inline="inline">
       /*titles, paragraph*/ h1 {font-size: 26px; padding-top: 30px;
       padding-bottom: 20px;} h2 {font-size: 20px} h3 {font-size: 18px;
-      margin-bottom: 0 !important;} h1, h2, h3, p { line-height: 1.6em; margin:
+      margin-bottom: 0 !important;} h1, h2, h3, p { line-height: 1.4em; margin:
       12px 0;} h1, h2, h3 { margin-bottom: 10px; font-weight:600; } p
-      {font-size: 18px; font-weight: 300} /*wrapper*/ .wrapper { padding-left:
-      24px; padding-right: 24px; padding-top: 10px; padding-bottom: 10px; }
-      .wrapper.body { background-color: transparent;} .wrapper {
-      border-collapse:separate; border-radius:20px; background-color: #FFFFFF;
-      margin-left: 24px; margin-right: 24px; padding: 32px;} /*colors*/
-      .color-gray-white {color: #FFFFFF;} .color-secondary {color: #FF4F00;}
-      /*general*/ *:first-child {margin-top: 0;} *:last-child {margin-bottom:
-      0;} .outer-container { padding: 60px 24px 24px 24px; } a { color: #FF4F00;
-      } /*mini-card*/ .mini-card { border-collapse:separate; border-radius: 8px;
-      border: 1px solid #E9EAEC; padding: 12px 16px; box-shadow: 0px 0px 18px
-      4px rgba(2, 27, 59, 0.08);} .mini-card p { font-size: 14px; margin: 0 0
-      3px 0;}
+      {font-size: 16px; font-weight: 300} /*wrapper*/ .wrapper.body {
+      background-color: transparent;} .wrapper { border-collapse:separate;
+      border-radius:16px; background-color: #FFFFFF; margin-left: 24px;
+      margin-right: 24px; padding: 16px;} /*colors*/ .color-gray-white {color:
+      #FFFFFF;} .color-secondary {color: #FF4F00;} /*general*/ *:first-child
+      {margin-top: 0;} *:last-child {margin-bottom: 0;} .outer-container {
+      padding: 60px 16px 24px 16px; } a { color: #FF4F00; } /*mini-card*/
+      .mini-card { border-collapse:separate; border-radius: 8px; border: 1px
+      solid #E9EAEC; padding: 12px 16px; box-shadow: 0px 0px 18px 4px rgba(2,
+      27, 59, 0.08);} .mini-card p { font-size: 14px; margin: 0 0 3px 0;}
     </mj-style>
   </mj-head>
 
@@ -113,25 +111,31 @@
       </mj-section>
       <!-- Order | item -->
       <mj-section mj-class="space-top">
-        <mj-column mj-class="space-right" width="12%" vertical-align="middle"
-          ><mj-image
-            src="https://stan-mjml.netlify.app/images/product.png"
-            alt="camera"
-        /></mj-column>
-        <mj-column width="88%" vertical-align="middle">
-          <mj-text> Cámara vintage tipo arte. </mj-text>
-        </mj-column>
+        <mj-group>
+          <mj-column mj-class="space-right" width="15%" vertical-align="middle"
+            ><mj-image
+              align="left"
+              src="https://stan-mjml.netlify.app/images/product.png"
+              alt="camera"
+          /></mj-column>
+          <mj-column width="85%" vertical-align="middle">
+            <mj-text> Cámara vintage tipo arte. </mj-text>
+          </mj-column>
+        </mj-group>
       </mj-section>
       <!-- Order | item -->
       <mj-section mj-class="space-top">
-        <mj-column mj-class="space-right" width="12%" vertical-align="middle"
-          ><mj-image
-            src="https://stan-mjml.netlify.app/images/product.png"
-            alt="camera"
-        /></mj-column>
-        <mj-column width="88%" vertical-align="middle">
-          <mj-text> Cámara vintage tipo arte. </mj-text>
-        </mj-column>
+        <mj-group>
+          <mj-column mj-class="space-right" width="15%" vertical-align="middle"
+            ><mj-image
+              align="left"
+              src="https://stan-mjml.netlify.app/images/product.png"
+              alt="camera"
+          /></mj-column>
+          <mj-column width="85%" vertical-align="middle">
+            <mj-text> Cámara vintage tipo arte. </mj-text>
+          </mj-column>
+        </mj-group>
       </mj-section>
 
       <!-- divider -->
@@ -162,20 +166,44 @@
 
       <!-- Details-->
       <mj-section>
-        <mj-column><mj-text>Fecha de retiro:</mj-text></mj-column>
-        <mj-column><mj-text align="right">12/12/2023</mj-text></mj-column>
+        <mj-group>
+          <mj-column width="60%"
+            ><mj-text><p>Fecha de retiro:</p></mj-text></mj-column
+          >
+          <mj-column width="40%"
+            ><mj-text align="right"><p>12/12/2023</p></mj-text></mj-column
+          >
+        </mj-group>
       </mj-section>
       <mj-section mj-class="space-top">
-        <mj-column><mj-text>Fecha de devolución:</mj-text></mj-column>
-        <mj-column><mj-text align="right">14/12/2023</mj-text></mj-column>
+        <mj-group>
+          <mj-column width="60%"
+            ><mj-text><p>Fecha de devolución:</p></mj-text></mj-column
+          >
+          <mj-column width="40%"
+            ><mj-text align="right"><p>14/12/2023</p></mj-text></mj-column
+          >
+        </mj-group>
       </mj-section>
       <mj-section mj-class="space-top">
-        <mj-column><mj-text>Cantidad de jornadas:</mj-text></mj-column>
-        <mj-column><mj-text align="right">3</mj-text></mj-column>
+        <mj-group>
+          <mj-column width="60%"
+            ><mj-text><p>Cantidad de jornadas:</p></mj-text></mj-column
+          >
+          <mj-column width="40%"
+            ><mj-text align="right"><p>3</p></mj-text></mj-column
+          >
+        </mj-group>
       </mj-section>
       <mj-section mj-class="space-top">
-        <mj-column><mj-text>Solicitante:</mj-text></mj-column>
-        <mj-column><mj-text align="right">Elon Musk</mj-text></mj-column>
+        <mj-group>
+          <mj-column width="60%"
+            ><mj-text><p>Solicitante:</p></mj-text></mj-column
+          >
+          <mj-column width="40%"
+            ><mj-text align="right"><p>Elon Musk</p></mj-text></mj-column
+          >
+        </mj-group>
       </mj-section>
 
       <!-- divider -->
