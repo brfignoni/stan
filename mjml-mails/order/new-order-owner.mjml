@@ -1,0 +1,134 @@
+<mjml>
+  <mj-head>
+    <mj-title>Nueva orden | Owner</mj-title>
+    <!-- <mj-font
+      name="Raleway"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    /> -->
+    <mj-attributes>
+      <mj-all
+        color="#021B3B"
+        font-size="18px"
+        padding-top="0"
+        padding-bottom="0"
+        padding-right="0"
+        padding-left="0"
+      />
+      <!--font sizes-->
+      <mj-class name="fsize-xs" font-size="14px" />
+      <mj-class name="fsize-sm" font-size="16px" />
+      <mj-class name="fsize-md" font-size="18px" />
+      <mj-class name="fsize-lg" font-size="20px" />
+      <mj-class name="fsize-xl" font-size="26px" />
+      <!--text colors-->
+      <mj-class name="color-primary" color="#021B3B" />
+      <mj-class name="color-secondary" color="#FF4F00" />
+      <mj-class name="color-gray-1" color="#262940" />
+      <mj-class name="color-gray-white" color="#FFFFFF" />
+      <!--background colors-->
+      <mj-class name="bgcolor-primary" background-color="#021B3B" />
+      <mj-class name="bgcolor-secondary" color="#FF4F00" />
+      <mj-class name="bgcolor-gray-white" color="FFFFFF" />
+      <!--other-->
+      <mj-class name="mj-base" color="" />
+      <mj-class
+        name="mj-divider"
+        padding-top="20px"
+        padding-bottom="20px"
+        border-width="1px"
+        border-color="#E9EAEC"
+      />
+      <!-- <mj-class name="wrapper" background-color="#FFFFFF" /> -->
+    </mj-attributes>
+    <mj-style inline="inline">
+      /*titles, paragraph*/ h1 {font-size: 26px; padding-top: 30px;
+      padding-bottom: 20px;} h2 {font-size: 20px} h3 {font-size: 18px} h1, h2,
+      h3, p { line-height: 1.6em;} h1, h2, h3 { margin-bottom: 10px;
+      font-weight:600; } p {font-size: 18px; font-weight: 300} /*wrapper*/
+      .wrapper { padding-left: 24px; padding-right: 24px; padding-top: 10px;
+      padding-bottom: 10px; } .wrapper.body { background-color: transparent;}
+      .wrapper { border-collapse:separate; border-radius:20px; background-color:
+      #FFFFFF; margin-left: 24px; margin-right: 24px; padding: 32px;} /*colors*/
+      .color-gray-white {color: #FFFFFF;} /*general*/ *:first-child {margin-top:
+      0;} *:last-child {margin-bottom: 0;} .outer-container { padding: 60px 24px
+      24px 24px; }
+    </mj-style>
+  </mj-head>
+
+  <mj-body mj-class="bgcolor-primary" css-class="outer-container">
+    <!-- logo -->
+    <mj-wrapper css-class="wrapper body">
+      <mj-section>
+        <mj-column>
+          <mj-image
+            src="../images/stan-logo-white.png"
+            alt="stan logo"
+            width="130px"
+          />
+          <mj-text
+            mj-class="color-gray-white"
+            align="center"
+            font-family="Raleway, Arial"
+          >
+            <h1 class="color-gray-white">¡Nueva orden de alquiler!</h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper css-class="wrapper">
+      <!-- header -->
+      <mj-section mj-class="mj-section">
+        <mj-column>
+          <mj-text>
+            <h2>¡Hola Maximiliano! Tenés una nueva orden para aprobar!</h2>
+            <p>Aceptala para empezar a hacer $$$</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+      <mj-section>
+        <mj-column>
+          <mj-divider mj-class="mj-divider" />
+        </mj-column>
+      </mj-section>
+
+      <!-- order detail -->
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            <h3>Orden: <span id="order-id">#RWMDR2</span></h3>
+            <p>Aceptala para empezar a hacer $$$</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
+
+<!-- <mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="mjclass" color="green" font-size="30px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .blue-text div { color: blue !important; }
+    </mj-style>
+    <mj-style>
+      .red-text div { color: red !important; text-decoration: underline
+      !important; }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text css-class="red-text" font-style="italic">
+          I'm red and underlined
+        </mj-text>
+        <mj-text css-class="blue-text">I'm blue because of inline</mj-text>
+        <mj-text mj-class="mjclass">I'm green</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml> -->
