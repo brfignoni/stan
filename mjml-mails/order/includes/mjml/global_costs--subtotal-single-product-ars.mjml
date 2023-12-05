@@ -2,12 +2,16 @@
   <mj-group>
     <mj-column width="70%">
       <mj-text>
-        <p><strong>Subtotal x 1 jornadas:</strong></p>
+        <p>
+          <strong>Subtotal x <span>1</span> jornada:</strong>
+        </p>
       </mj-text>
     </mj-column>
     <mj-column width="30%">
       <mj-text align="right">
-        <p><strong>ARS 234000</strong></p>
+        <p>
+          <strong><span>ARS</span> <span>234000</span></strong>
+        </p>
       </mj-text>
     </mj-column>
   </mj-group>

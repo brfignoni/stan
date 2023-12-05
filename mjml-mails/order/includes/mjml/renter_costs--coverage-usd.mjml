@@ -7,7 +7,7 @@
     </mj-column>
     <mj-column width="30%">
       <mj-text align="right">
-        <p>USD 50</p>
+        <p><span>USD</span> <span>50</span></p>
       </mj-text>
     </mj-column>
   </mj-group>
@@ -22,7 +22,7 @@
     </mj-column>
     <mj-column width="30%">
       <mj-text align="right">
-        <p>USD 34</p>
+        <p><span>USD</span> <span>34</span></p>
       </mj-text>
     </mj-column>
   </mj-group>
@@ -37,7 +37,7 @@
     </mj-column>
     <mj-column width="30%">
       <mj-text align="right" mj-class="color-success">
-        <p>- USD 20</p>
+        <p>- <span>USD</span> <span>20</span></p>
       </mj-text>
     </mj-column>
   </mj-group>
@@ -52,7 +52,7 @@
     </mj-column>
     <mj-column width="40%">
       <mj-text align="right" mj-class="color-success">
-        <p>- USD 34</p>
+        <p>- <span>USD</span> <span>34</span></p>
       </mj-text>
     </mj-column>
   </mj-group>

@@ -2,12 +2,16 @@
   <mj-group>
     <mj-column width="70%">
       <mj-text>
-        <p><strong>Subtotal x 1 jornadas:</strong></p>
+        <p>
+          <strong>Subtotal x <span>1</span> jornada:</strong>
+        </p>
       </mj-text>
     </mj-column>
     <mj-column width="30%">
       <mj-text align="right">
-        <p><strong>USD 234</strong></p>
+        <p>
+          <strong><span>USD</span> <span>234</span></strong>
+        </p>
       </mj-text>
     </mj-column>
   </mj-group>
@@ -22,7 +26,7 @@
     </mj-column>
     <mj-column width="30%">
       <mj-text align="right">
-        <p>USD 100</p>
+        <p><span>USD</span> <span>100</span></p>
       </mj-text>
     </mj-column>
   </mj-group>
@@ -40,7 +44,7 @@
     </mj-column>
     <mj-column width="30%">
       <mj-text align="right">
-        <p>USD 134</p>
+        <p><span>USD</span> <span>134</span></p>
       </mj-text>
     </mj-column>
   </mj-group>
