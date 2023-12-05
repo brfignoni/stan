@@ -11,6 +11,6 @@ p {
 mj-divider {
     padding: 20px 0;
 }
-mj-class space-top {
+mj-class space-top, space-right, space-bottom {
     padding-top: 12px
 }
