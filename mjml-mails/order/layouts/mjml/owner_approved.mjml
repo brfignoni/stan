@@ -13,7 +13,7 @@
     ******************** -->
     <mj-wrapper css-class="wrapper">
       <!-- header -->
-      <mj-include path="../../includes/mjml/owner_new-order--greeting.mjml" />
+      <mj-include path="../../includes/mjml/owner_greeting--new-order.mjml" />
 
       <!-- divider -->
       <mj-include path="../../includes/mjml/global_divider.mjml" />

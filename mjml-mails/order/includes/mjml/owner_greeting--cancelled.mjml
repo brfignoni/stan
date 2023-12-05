@@ -2,8 +2,8 @@
   <mj-column>
     <mj-text>
       <h2>
-        ¡Hola, <span id="name">Maximiliano!</span> Tenés una nueva orden para
-        aprobar!
+        ¡Hola, <span id="name">Maximiliano!</span><br />Tenés una nueva orden
+        para aprobar!
       </h2>
       <p>Aceptala para empezar a hacer $$$</p>
     </mj-text>
