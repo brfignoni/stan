@@ -1,0 +1,14 @@
+<mj-wrapper css-class="wrapper body">
+  <mj-section>
+    <mj-column>
+      <mj-image
+        src="https://stan-mjml.netlify.app/assets/images/stan-logo-white.png"
+        alt="stan logo"
+        width="130px"
+      />
+      <mj-text mj-class="color-gray-white" align="center">
+        <h1 class="color-gray-white">Orden rechazada</h1>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>

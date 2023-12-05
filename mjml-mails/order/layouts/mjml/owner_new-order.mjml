@@ -6,7 +6,7 @@
 
   <mj-body mj-class="bgcolor-primary" css-class="outer-container">
     <!-- greeting -->
-    <mj-include path="../../includes/mjml/owner_new-order--header.mjml" />
+    <mj-include path="../../includes/mjml/global_header--new-order.mjml" />
 
     <!-- *******************
     ORDER DETAILS
