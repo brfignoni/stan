@@ -18,7 +18,7 @@ Status
 
 owner__new-order ✅
 owner__new-order--no-coverage ✅
-owner__new-order--single-product 
+owner__new-order--single-product ✅
 owner__new-order--ars
 owner__approved
 owner__rejected

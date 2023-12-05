@@ -1,0 +1,14 @@
+<mj-section>
+  <mj-group>
+    <mj-column width="70%">
+      <mj-text>
+        <p><strong>Subtotal x 1 jornadas:</strong></p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="30%">
+      <mj-text align="right">
+        <p><strong>USD 234</strong></p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>

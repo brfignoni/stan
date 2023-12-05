@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>New Order | Owner</mj-title>
+    <mj-title>New Order: $ARS | Owner</mj-title>
     <mj-include path="../../includes/mjml/mj-head.mjml" />
   </mj-head>
 
@@ -20,7 +20,7 @@
 
       <!-- Order: Two Products -->
       <mj-include
-        path="../../includes/mjml/global_order--two-products.mjml.mjml"
+        path="../../includes/mjml/global_order--single-product.mjml"
       />
 
       <!-- divider -->
@@ -34,12 +34,6 @@
 
       <!-- Details-->
       <mj-include path="../../includes/mjml/global_details.mjml" />
-
-      <!-- divider -->
-      <mj-include path="../../includes/mjml/global_divider.mjml" />
-
-      <!-- Coverage -->
-      <mj-include path="../../includes/mjml/global_coverage.mjml" />
     </mj-wrapper>
 
     <!-- divider wrapper -->
@@ -57,20 +51,20 @@
 
       <!-- subtotal -->
       <mj-include
-        path="../../includes/mjml/global_costs--subtotal-two-products-usd.mjml"
+        path="../../includes/mjml/global_costs--subtotal-single-product-ars.mjml"
       />
 
       <!-- divider -->
       <mj-include path="../../includes/mjml/global_divider.mjml" />
 
       <!-- costs usd -->
-      <mj-include path="../../includes/mjml/owner_costs--usd.mjml" />
+      <mj-include path="../../includes/mjml/owner_costs--ars.mjml" />
 
       <!-- divider -->
       <mj-include path="../../includes/mjml/global_divider.mjml" />
 
-      <!-- total usd -->
-      <mj-include path="../../includes/mjml/owner_costs--total-usd.mjml" />
+      <!-- total -->
+      <mj-include path="../../includes/mjml/global_costs--total-ars.mjml" />
     </mj-wrapper>
 
     <!-- divider wrapper -->

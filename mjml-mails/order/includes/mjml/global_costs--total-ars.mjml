@@ -1,13 +1,13 @@
 <mj-section>
   <mj-group>
-    <mj-column width="70%">
+    <mj-column width="60%">
       <mj-text>
-        <p><strong>Subtotal x 1 jornadas:</strong></p>
+        <p><strong>Total a cobrar</strong></p>
       </mj-text>
     </mj-column>
-    <mj-column width="30%">
+    <mj-column width="40%">
       <mj-text align="right">
-        <p><strong>ARS 234000</strong></p>
+        <p><strong>ARS 17000</strong></p>
       </mj-text>
     </mj-column>
   </mj-group>

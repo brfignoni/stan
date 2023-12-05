@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>New Order | Owner</mj-title>
+    <mj-title>New Order: Cancelled | Owner</mj-title>
     <mj-include path="../../includes/mjml/mj-head.mjml" />
   </mj-head>
 
@@ -19,9 +19,7 @@
       <mj-include path="../../includes/mjml/global_divider.mjml" />
 
       <!-- Order: Two Products -->
-      <mj-include
-        path="../../includes/mjml/global_order--two-products.mjml.mjml"
-      />
+      <mj-include path="../../includes/mjml/global_order--two-products.mjml" />
 
       <!-- divider -->
       <mj-include path="../../includes/mjml/global_divider.mjml" />
@@ -69,8 +67,8 @@
       <!-- divider -->
       <mj-include path="../../includes/mjml/global_divider.mjml" />
 
-      <!-- total usd -->
-      <mj-include path="../../includes/mjml/owner_costs--total-usd.mjml" />
+      <!-- total -->
+      <mj-include path="../../includes/mjml/global_costs--total-usd.mjml" />
     </mj-wrapper>
 
     <!-- divider wrapper -->

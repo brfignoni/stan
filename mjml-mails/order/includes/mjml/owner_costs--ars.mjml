@@ -1,0 +1,44 @@
+<mj-section>
+  <mj-group>
+    <mj-column width="70%">
+      <mj-text>
+        <p>Cuota de la comunidad</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="30%">
+      <mj-text align="right">
+        <p>ARS 3400</p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-section mj-class="space-top">
+  <mj-group>
+    <mj-column width="70%">
+      <mj-text>
+        <p>Descuento X jornadas / X%</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="30%">
+      <mj-text align="right">
+        <p>- ARS 2000</p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-section mj-class="space-top">
+  <mj-group>
+    <mj-column width="60%">
+      <mj-text>
+        <p>Cupón paga owner</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="40%">
+      <mj-text align="right">
+        <p>ARS 1000</p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
