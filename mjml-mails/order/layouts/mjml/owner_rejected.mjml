@@ -6,26 +6,20 @@
 
   <mj-body mj-class="bgcolor-primary" css-class="outer-container">
     <!-- greeting -->
-    <mj-include path="../../includes/mjml/global_header--new-order.mjml" />
+    <mj-include path="../../includes/mjml/global_header--rejected.mjml" />
 
     <!-- *******************
     ORDER DETAILS
     ******************** -->
     <mj-wrapper css-class="wrapper">
       <!-- header -->
-      <mj-include path="../../includes/mjml/owner_greeting--new-order.mjml" />
+      <mj-include path="../../includes/mjml/owner_greeting--rejected.mjml" />
 
       <!-- divider -->
       <mj-include path="../../includes/mjml/global_divider.mjml" />
 
       <!-- Order: Two Products -->
       <mj-include path="../../includes/mjml/global_order--two-products.mjml" />
-
-      <!-- divider -->
-      <mj-include path="../../includes/mjml/global_divider.mjml" />
-
-      <!-- Comments -->
-      <mj-include path="../../includes/mjml/owner_new-order--comments.mjml" />
 
       <!-- divider -->
       <mj-include path="../../includes/mjml/global_divider.mjml" />
@@ -77,7 +71,32 @@
     <!-- *******************
     PRE-FOOTER
     ******************** -->
-    <mj-include path="../../includes/mjml/owner_new-order--pre-footer.mjml" />
+    <mj-wrapper css-class="wrapper border-secondary">
+      <mj-section>
+        <mj-column>
+          <mj-text mj-class="color-secondary">
+            <h2 class="center">
+              Rechazar órdenes te puede afectar como propietario
+            </h2>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            <p class="center">
+              Rechazar muchas órdenes puede afectar la experiencia de la
+              comunidad. Recordá desactivar tus productos cuando no los tengas
+              disponibles.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
 
     <!-- divider wrapper -->
     <mj-include path="../../includes/mjml/global_divider--wrapper.mjml" />

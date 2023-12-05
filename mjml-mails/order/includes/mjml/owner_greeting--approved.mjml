@@ -2,7 +2,7 @@
   <mj-column>
     <mj-text>
       <h2>
-        ¡Hola, <span id="name">Maximiliano!</span><br />¡Hola Maximiliano!
+        ¡Hola, <span id="name">Maximiliano!</span><br />
         Aprobaste la siguiente orden.
       </h2>
       <p>

@@ -13,19 +13,13 @@
     ******************** -->
     <mj-wrapper css-class="wrapper">
       <!-- header -->
-      <mj-include path="../../includes/mjml/owner_greeting--new-order.mjml" />
+      <mj-include path="../../includes/mjml/owner_greeting--approved.mjml" />
 
       <!-- divider -->
       <mj-include path="../../includes/mjml/global_divider.mjml" />
 
       <!-- Order: Two Products -->
       <mj-include path="../../includes/mjml/global_order--two-products.mjml" />
-
-      <!-- divider -->
-      <mj-include path="../../includes/mjml/global_divider.mjml" />
-
-      <!-- Comments -->
-      <mj-include path="../../includes/mjml/owner_new-order--comments.mjml" />
 
       <!-- divider -->
       <mj-include path="../../includes/mjml/global_divider.mjml" />
@@ -73,11 +67,6 @@
 
     <!-- divider wrapper -->
     <mj-include path="../../includes/mjml/global_divider--wrapper.mjml" />
-
-    <!-- *******************
-    PRE-FOOTER
-    ******************** -->
-    <mj-include path="../../includes/mjml/owner_new-order--pre-footer.mjml" />
 
     <!-- divider wrapper -->
     <mj-include path="../../includes/mjml/global_divider--wrapper.mjml" />
