@@ -21,6 +21,7 @@ ATTRIBUTES
   <mj-class name="color-secondary" color="#FF4F00" />
   <mj-class name="color-gray-1" color="#262940" />
   <mj-class name="color-gray-white" color="#FFFFFF" />
+  <mj-class name="color-success" color="#4BB543" />
   <!--background colors-->
   <mj-class name="bgcolor-primary" background-color="#021B3B" />
   <mj-class name="bgcolor-secondary" color="#FF4F00" />

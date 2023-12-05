@@ -1,0 +1,106 @@
+<mjml>
+  <mj-head>
+    <mj-title>New Order | Renter</mj-title>
+    <mj-include path="../../includes/mjml/mj-head.mjml" />
+  </mj-head>
+
+  <mj-body mj-class="bgcolor-primary" css-class="outer-container">
+    <!-- greeting -->
+    <mj-include path="../../includes/mjml/global_header--sent.mjml" />
+
+    <!-- *******************
+    ORDER DETAILS
+    ******************** -->
+    <mj-wrapper css-class="wrapper">
+      <!-- header -->
+      <mj-include path="../../includes/mjml/renter_greeting--new-order.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- Order: Two Products -->
+      <mj-include path="../../includes/mjml/global_order--two-products.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- Details-->
+      <mj-include path="../../includes/mjml/global_details.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- Coverage -->
+      <mj-include path="../../includes/mjml/global_coverage.mjml" />
+    </mj-wrapper>
+
+    <!-- divider wrapper -->
+    <mj-include path="../../includes/mjml/global_divider--wrapper.mjml" />
+
+    <!-- *******************
+    COSTS DETAILS
+    ******************** -->
+    <mj-wrapper css-class="wrapper">
+      <!-- title -->
+      <mj-include path="../../includes/mjml/global_costs--title.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- subtotal -->
+      <mj-include
+        path="../../includes/mjml/global_costs--subtotal-two-products-usd.mjml"
+      />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- costs usd -->
+      <mj-include path="../../includes/mjml/renter_costs--coverage-usd.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- total -->
+      <mj-include path="../../includes/mjml/global_costs--total-usd.mjml" />
+    </mj-wrapper>
+
+    <!-- divider wrapper -->
+    <mj-include path="../../includes/mjml/global_divider--wrapper.mjml" />
+
+    <!-- *******************
+    PRE-FOOTER
+    ******************** -->
+    <mj-wrapper css-class="wrapper border-secondary">
+      <mj-section>
+        <mj-column>
+          <mj-text mj-class="color-secondary">
+            <h2 class="center">¿Qué sigue?</h2>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            <p class="center">
+              Una vez la orden quede aprobada podrás realizar el pago del
+              alquiler dentro de la app.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- divider wrapper -->
+    <mj-include path="../../includes/mjml/global_divider--wrapper.mjml" />
+
+    <!-- *******************
+    FOOTER
+    ******************** -->
+    <mj-include path="../../includes/mjml/global_footer.mjml" />
+  </mj-body>
+</mjml>

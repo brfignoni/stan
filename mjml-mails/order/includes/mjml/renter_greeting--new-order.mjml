@@ -1,10 +1,7 @@
 <mj-section>
   <mj-column>
     <mj-text>
-      <h2>
-        ¡Hola, <span id="name">Diego!</span><br />¡Hola Diego! Tu orden fue
-        enviada.
-      </h2>
+      <h2>¡Hola, <span id="name">Diego!</span><br />Tu orden fue enviada.</h2>
       <p>Te notificaremos una vez el propietario la apruebe.</p>
     </mj-text>
   </mj-column>
