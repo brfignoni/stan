@@ -1,0 +1,92 @@
+<mjml>
+  <mj-head>
+    <mj-title>New Order | Owner</mj-title>
+    <mj-include path="../../includes/mjml/mj-head.mjml" />
+  </mj-head>
+
+  <mj-body mj-class="bgcolor-primary" css-class="outer-container">
+    <!-- greeting -->
+    <mj-include path="../../includes/mjml/owner_new-order--header.mjml" />
+
+    <!-- *******************
+    ORDER DETAILS
+    ******************** -->
+    <mj-wrapper css-class="wrapper">
+      <!-- header -->
+      <mj-include path="../../includes/mjml/owner_new-order--greeting.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- Order: Two Products -->
+      <mj-include
+        path="../../includes/mjml/global_order--two-products.mjml.mjml"
+      />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- Comments -->
+      <mj-include path="../../includes/mjml/owner_new-order--comments.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- Details-->
+      <mj-include path="../../includes/mjml/global_details.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- Coverage -->
+      <mj-include path="../../includes/mjml/global_coverage.mjml" />
+    </mj-wrapper>
+
+    <!-- divider wrapper -->
+    <mj-include path="../../includes/mjml/global_divider--wrapper.mjml" />
+
+    <!-- *******************
+    COSTS DETAILS
+    ******************** -->
+    <mj-wrapper css-class="wrapper">
+      <!-- title -->
+      <mj-include path="../../includes/mjml/global_costs--title.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- subtotal -->
+      <mj-include
+        path="../../includes/mjml/global_costs--subtotal-two-products-usd.mjml"
+      />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- costs usd -->
+      <mj-include path="../../includes/mjml/owner_costs--usd.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- total usd -->
+      <mj-include path="../../includes/mjml/owner_costs--total-usd.mjml" />
+    </mj-wrapper>
+
+    <!-- divider wrapper -->
+    <mj-include path="../../includes/mjml/global_divider--wrapper.mjml" />
+
+    <!-- *******************
+    PRE-FOOTER
+    ******************** -->
+    <mj-include path="../../includes/mjml/owner_new-order--pre-footer.mjml" />
+
+    <!-- divider wrapper -->
+    <mj-include path="../../includes/mjml/global_divider--wrapper.mjml" />
+
+    <!-- *******************
+    FOOTER
+    ******************** -->
+    <mj-include path="../../includes/mjml/global_footer.mjml" />
+  </mj-body>
+</mjml>

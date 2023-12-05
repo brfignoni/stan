@@ -1,0 +1,38 @@
+<mj-wrapper>
+  <!--need help?-->
+  <mj-section>
+    <mj-column>
+      <mj-text mj-class="color-gray-white">
+        <p class="center">
+          ¿Necesitás ayuda?
+          <a class="color-gray-white" href="www.whatspp.com"
+            >Chateá con soporte</a
+          >
+        </p>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!--faqs | terms and conditions-->
+  <mj-section mj-class="space-top">
+    <mj-column>
+      <mj-text mj-class="color-gray-white">
+        <p class="center">
+          <a
+            class="color-gray-white"
+            href="https://www.stan.community/faq/"
+            target="_blank"
+            >FAQs</a
+          >
+          |
+          <a
+            class="color-gray-white"
+            href="https://www.stan.community/terminos-y-condiciones/"
+            target="_blank"
+            >Términos y condiciones</a
+          >
+        </p>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>

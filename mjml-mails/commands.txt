@@ -1,13 +1,10 @@
 mjml new-order-owner.mjml -o new-order-owner.html
 mjml -w new-order-owner.mjml
+mjml -w ./mjml/*.mjml -o ./html/
+------------------------------------------------
 
-desktop styles:
-p {
-    font-size: 18px;
-}
-.wrapper {
-    padding: 32px;
-}
+<mj-include path="../../includes/mjml/" />
+
 mj-divider {
     padding: 20px 0;
 }

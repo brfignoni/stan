@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://www.stan.community/wp-content/uploads/2021/09/Asset-40-1-450x450.png"
+      sizes="192x192"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <base
+      href="http://127.0.0.1:5500/mjml-mails/order/layouts/html/"
+      target="_blank"
+    /> -->
+    <style>
+      @font-face {
+        font-family: "druk";
+        src: url(../assets/fonts/druk-wide.woff2);
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: "druk", arial;
+        margin-top: 0;
+      }
+      body {
+        background-color: #022759;
+        color: #fff;
+        padding: 36px;
+        font-family: "Poppins", sans-serif;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 36px;
+      }
+      ul li {
+        margin-bottom: 4px;
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+    <title>Order emails | Stan</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--Owner-->
+      <section>
+        <h2>Owner</h2>
+        <ul>
+          <li><a href="owner_new-order.html">new-order</a></li>
+          <li>
+            <a href="owner_new-order--no-coverage.html"
+              >new-order--no-coverage</a
+            >
+          </li>
+          <li>
+            <a href="owner_new-order--single-product.html"
+              >new-order--single-product</a
+            >
+          </li>
+          <li><a href="owner_new-order--ars.html">new-order--ars</a></li>
+          <li><a href="owner_approved.html">approved</a></li>
+          <li><a href="owner_rejected.html">rejected</a></li>
+          <li><a href="owner_cancelled.html">cancelled</a></li>
+          <li><a href="owner_confirmed.html">confirmed</a></li>
+        </ul>
+      </section>
+
+      <!--Renter-->
+      <section>
+        <h2>Renter</h2>
+        <ul>
+          <li><a href="renter_new-order.html">new-order</a></li>
+          <li>
+            <a href="renter_new-order--no-coverage.html"
+              >new-order--no-coverage</a
+            >
+          </li>
+          <li>
+            <a href="renter_new-order--single-product.html"
+              >new-order--single-product</a
+            >
+          </li>
+          <li><a href="renter_new-order--ars.html">new-order--ars</a></li>
+          <li><a href="renter_approved.html">approved</a></li>
+          <li><a href="renter_rejected.html">rejected</a></li>
+          <li><a href="renter_cancelled.html">cancelled</a></li>
+          <li><a href="renter_confirmed.html">confirmed</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <script>
+      const base = document.createElement("base");
+      const baseUrl = window.location.origin;
+      const pagesPath = "/mjml-mails/order/layouts/html/";
+      base.setAttribute("href", baseUrl + pagesPath);
+      base.setAttribute("target", "_blank");
+      document.getElementsByTagName("head")[0].innerHTML += base;
+      const head = document.querySelector("head");
+      head.appendChild(base);
+    </script>
+  </body>
+</html>

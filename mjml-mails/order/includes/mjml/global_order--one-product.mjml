@@ -1,0 +1,26 @@
+<!-- Order | title -->
+<mj-section>
+  <mj-column>
+    <mj-text>
+      <h3>Órden: <span id="order-id">#RWMDR2</span></h3>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<!-- Order | item -->
+<mj-section mj-class="space-top">
+  <mj-group>
+    <mj-column mj-class="space-right" width="15%" vertical-align="middle">
+      <mj-image
+        css-class="object-fit"
+        align="left"
+        src="https://stan-mjml.netlify.app/assets/images/camera-1.jpeg"
+        alt="camera 1"
+      />
+    </mj-column>
+    <mj-column width="85%" vertical-align="middle">
+      <mj-text>
+        <h4>Cámara vintage tipo arte.</h4>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>

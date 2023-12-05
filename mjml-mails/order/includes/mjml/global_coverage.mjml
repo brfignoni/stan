@@ -1,0 +1,16 @@
+<mj-section mj-class="detail" css-class="mini-card">
+  <mj-column>
+    <mj-text mj-class="fsize-xs">
+      <p>
+        <span class="color-secondary">Cobertura Stan:</span>
+        <span>Daños</span>
+      </p>
+      <p>En la app podrás ver los equipos con cobertura.</p>
+      <p>
+        <a href="https://www.stan.community/cobertura-stan/" target="_blank">
+          Conocer más sobre los planes
+        </a>
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>

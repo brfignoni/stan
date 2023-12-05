@@ -1,0 +1,10 @@
+<mj-section>
+  <mj-column>
+    <mj-text>
+      <h3>Comentarios:</h3>
+      <p id="comments">
+        Hola! Necesito la cámara para una jornada y la voy a cuidar mucho.
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>

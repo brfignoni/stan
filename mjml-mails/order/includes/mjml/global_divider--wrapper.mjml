@@ -1,0 +1,5 @@
+<mj-section>
+  <mj-column>
+    <mj-divider mj-class="mj-divider--wrapper" />
+  </mj-column>
+</mj-section>
