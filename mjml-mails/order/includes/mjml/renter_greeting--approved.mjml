@@ -2,7 +2,7 @@
   <mj-column>
     <mj-text>
       <h2>
-        ¡Hola, <span id="name">Diego!</span><br />Tu orden fue aprobada. ¡Hora
+        ¡Hola, <span id="name">Diego!</span><br />Tu orden fue aprobada.<br />¡Hora
         de realizar el pago en la app!
       </h2>
     </mj-text>

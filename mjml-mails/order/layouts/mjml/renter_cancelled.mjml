@@ -1,19 +1,19 @@
 <mjml>
   <mj-head>
-    <mj-title>New Order | Renter</mj-title>
+    <mj-title>Order Cancelled | Renter</mj-title>
     <mj-include path="../../includes/mjml/mj-head.mjml" />
   </mj-head>
 
   <mj-body mj-class="bgcolor-primary" css-class="outer-container">
     <!-- greeting -->
-    <mj-include path="../../includes/mjml/global_header--sent.mjml" />
+    <mj-include path="../../includes/mjml/global_header--cancelled.mjml" />
 
     <!-- *******************
     ORDER DETAILS
     ******************** -->
     <mj-wrapper css-class="wrapper">
       <!-- header -->
-      <mj-include path="../../includes/mjml/renter_greeting--new-order.mjml" />
+      <mj-include path="../../includes/mjml/renter_greeting--cancelled.mjml" />
 
       <!-- divider -->
       <mj-include path="../../includes/mjml/global_divider.mjml" />
@@ -26,6 +26,12 @@
 
       <!-- Details-->
       <mj-include path="../../includes/mjml/global_details.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- Comments -->
+      <mj-include path="../../includes/mjml/renter_comments--cancelled.mjml" />
 
       <!-- divider -->
       <mj-include path="../../includes/mjml/global_divider.mjml" />
@@ -75,7 +81,9 @@
       <mj-section>
         <mj-column>
           <mj-text mj-class="color-secondary">
-            <h2 class="center">¿Qué sigue?</h2>
+            <h2 class="center">
+              Cancelar muchas ordenes te puede afectar como usuario
+            </h2>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -87,8 +95,8 @@
         <mj-column>
           <mj-text>
             <p class="center">
-              Una vez la orden quede aprobada podrás realizar el pago del
-              alquiler dentro de la app.
+              Recomendamos que verifiques en detalle toda la información antes
+              de enviar tu próxima orden.
             </p>
           </mj-text>
         </mj-column>
