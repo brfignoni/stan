@@ -46,7 +46,7 @@ ATTRIBUTES
   <!--spacers-->
   <mj-class name="space-right" padding-right="8px" />
   <mj-class name="space-bottom" padding-bottom="8px" />
-  <mj-class name="space-top" padding-top="8px" />
+  <mj-class name="space-top" padding-top="12px" />
   <mj-class name="detail" pading="12px 16px" />
   <mj-class name="indent" padding-left="12px" />
 

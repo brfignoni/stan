@@ -34,12 +34,6 @@
 
       <!-- Details-->
       <mj-include path="../../includes/mjml/global_details.mjml" />
-
-      <!-- divider -->
-      <mj-include path="../../includes/mjml/global_divider.mjml" />
-
-      <!-- Coverage -->
-      <mj-include path="../../includes/mjml/global_coverage.mjml" />
     </mj-wrapper>
 
     <!-- divider wrapper -->

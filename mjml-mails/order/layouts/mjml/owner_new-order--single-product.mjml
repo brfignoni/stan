@@ -1,65 +1,92 @@
 <mjml>
   <mj-head>
-    <mj-title>Nueva orden | Owner</mj-title>
+    <mj-title>New Order | Owner</mj-title>
     <mj-include path="../../includes/mjml/mj-head.mjml" />
   </mj-head>
 
   <mj-body mj-class="bgcolor-primary" css-class="outer-container">
-    <!-- logo -->
-    <mj-wrapper css-class="wrapper body">
-      <mj-section>
-        <mj-column>
-          <mj-image
-            src="https://stan-mjml.netlify.app/assets/images/stan-logo-white.png"
-            alt="stan logo"
-            width="130px"
-          />
-          <mj-text mj-class="color-gray-white" align="center">
-            <h1 class="color-gray-white">[Título principal]</h1>
-          </mj-text>
-        </mj-column>
-      </mj-section>
+    <!-- greeting -->
+    <mj-include path="../../includes/mjml/owner_new-order--header.mjml" />
+
+    <!-- *******************
+    ORDER DETAILS
+    ******************** -->
+    <mj-wrapper css-class="wrapper">
+      <!-- header -->
+      <mj-include path="../../includes/mjml/owner_new-order--greeting.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- Order: Two Products -->
+      <mj-include
+        path="../../includes/mjml/global_order--two-products.mjml.mjml"
+      />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- Comments -->
+      <mj-include path="../../includes/mjml/owner_new-order--comments.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- Details-->
+      <mj-include path="../../includes/mjml/global_details.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- Coverage -->
+      <mj-include path="../../includes/mjml/global_coverage.mjml" />
     </mj-wrapper>
 
-    <!-- *******************
-    FIRST CARD
-    ******************** -->
-    <mj-wrapper css-class="wrapper"> </mj-wrapper>
-
-    <!-- wrapper divider -->
-    <mj-section>
-      <mj-column>
-        <mj-divider mj-class="mj-divider--wrapper" />
-      </mj-column>
-    </mj-section>
+    <!-- divider wrapper -->
+    <mj-include path="../../includes/mjml/global_divider--wrapper.mjml" />
 
     <!-- *******************
-    SECOND CARD
+    COSTS DETAILS
     ******************** -->
-    <mj-wrapper css-class="wrapper"> </mj-wrapper>
+    <mj-wrapper css-class="wrapper">
+      <!-- title -->
+      <mj-include path="../../includes/mjml/global_costs--title.mjml" />
 
-    <!-- wrapper divider -->
-    <mj-section>
-      <mj-column>
-        <mj-divider mj-class="mj-divider--wrapper" />
-      </mj-column>
-    </mj-section>
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- subtotal -->
+      <mj-include
+        path="../../includes/mjml/global_costs--subtotal-two-products-usd.mjml"
+      />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- costs usd -->
+      <mj-include path="../../includes/mjml/owner_costs--usd.mjml" />
+
+      <!-- divider -->
+      <mj-include path="../../includes/mjml/global_divider.mjml" />
+
+      <!-- total usd -->
+      <mj-include path="../../includes/mjml/owner_costs--total-usd.mjml" />
+    </mj-wrapper>
+
+    <!-- divider wrapper -->
+    <mj-include path="../../includes/mjml/global_divider--wrapper.mjml" />
 
     <!-- *******************
-    THIRD CARD
+    PRE-FOOTER
     ******************** -->
-    <mj-wrapper css-class="wrapper"> </mj-wrapper>
+    <mj-include path="../../includes/mjml/owner_new-order--pre-footer.mjml" />
 
-    <!-- wrapper divider -->
-    <mj-section>
-      <mj-column>
-        <mj-divider mj-class="mj-divider--wrapper" />
-      </mj-column>
-    </mj-section>
+    <!-- divider wrapper -->
+    <mj-include path="../../includes/mjml/global_divider--wrapper.mjml" />
 
     <!-- *******************
     FOOTER
     ******************** -->
-    <mj-wrapper css-class="wrapper"> </mj-wrapper>
+    <mj-include path="../../includes/mjml/global_footer.mjml" />
   </mj-body>
 </mjml>

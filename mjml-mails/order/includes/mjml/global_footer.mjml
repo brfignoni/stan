@@ -4,7 +4,7 @@
     <mj-column>
       <mj-text mj-class="color-gray-white">
         <p class="center">
-          ¿Necesitás ayuda?
+          ¿Necesitás ayuda?&nbsp;
           <a class="color-gray-white" href="www.whatspp.com"
             >Chateá con soporte</a
           >
