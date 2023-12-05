@@ -2,10 +2,9 @@
   <mj-column>
     <mj-text>
       <h2>
-        ¡Hola, <span id="name">Maximiliano!</span><br />Tenés una nueva orden
-        para aprobar!
+        Hola, <span id="name">Maximiliano</span><br />
+        la siguiente orden ha sido cancelada :(
       </h2>
-      <p>Aceptala para empezar a hacer $$$</p>
     </mj-text>
   </mj-column>
 </mj-section>

@@ -2,10 +2,13 @@
   <mj-column>
     <mj-text>
       <h2>
-        ¡Hola, <span id="name">Maximiliano!</span><br />Tenés una nueva orden
-        para aprobar!
+        ¡Hola, <span id="name">Maximiliano!</span><br />
+        ¡Tu orden fue confirmada!
       </h2>
-      <p>Aceptala para empezar a hacer $$$</p>
+      <p>
+        Recordá que podés usar el chat para ajustar detalles sobre el retiro y
+        la devolución.
+      </p>
     </mj-text>
   </mj-column>
 </mj-section>
