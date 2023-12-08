@@ -1,0 +1,44 @@
+<mj-section>
+  <mj-group>
+    <!-- title -->
+    <mj-column width="70%">
+      <mj-text>
+        <p>
+          <strong>Subtotal x <span>1</span> jornada:</strong>
+        </p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="30%">
+      <mj-text align="right">
+        <p>
+          <strong><span>USD</span> <span>234</span></strong>
+        </p>
+      </mj-text>
+    </mj-column>
+    <!-- product -->
+    <mj-column width="70%" mj-class="indent space-top">
+      <mj-text>
+        <p>Cámara vintage tipo arte</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="30%" mj-class="space-top">
+      <mj-text align="right">
+        <p><span>USD</span> <span>100</span></p>
+      </mj-text>
+    </mj-column>
+    <!-- product -->
+    <mj-column width="70%" mj-class="indent space-top">
+      <mj-text>
+        <p>
+          Blackmagic Cinema Camera 6K features a massive full frame sensor with
+          a native resolution of 6048 x 4032
+        </p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="30%" mj-class="space-top">
+      <mj-text align="right">
+        <p><span>USD</span> <span>134</span></p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>

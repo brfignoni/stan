@@ -1,0 +1,45 @@
+mjmls significa mjml simplificado. Utiliza menos etiquetas mjml para lograr un correo de menor peso.
+
+global_costs--subtotal-single-product-ars
+global_costs--subtotal-single-product-usd
+global_costs--subtotal-two-products-ars
+✅ global_costs--subtotal-two-products-usd
+✅ global_costs--title
+❌ global_costs--total-ars
+❌ global_costs--total-usd
+global_coverage
+global_details
+✅ global_divider--wrapper
+✅ global_divider
+✅ global_footer
+✅ global_header--approved
+✅ global_header--cancelled
+✅ global_header--confirmed
+✅ global_header--new-order
+✅ global_header--rejected
+✅ global_header--sent
+✅ global_order--single-product
+✅ global_order--two-products
+✅ mj-head
+✅ owner_costs--ars
+✅ owner_costs--usd
+owner_costs
+✅ owner_greeting--approved
+✅ owner_greeting--cancelled
+✅ owner_greeting--confirmed
+✅ owner_greeting--new-order
+✅ owner_greeting--rejected
+✅ owner_new-order--comments
+✅ owner_new-order--pre-footer
+renter_comments--approved
+renter_comments--cancelled
+renter_comments--rejected
+renter_costs--coverage-ars
+renter_costs--coverage-usd
+renter_costs--no-coverage-ars
+renter_costs--no-coverage-usd
+✅ renter_greeting--approved
+✅ renter_greeting--cancelled
+✅ renter_greeting--confirmed
+✅ renter_greeting--new-order
+✅ renter_greeting--rejected

@@ -1,0 +1,14 @@
+<mj-wrapper css-class="wrapper border-secondary">
+  <mj-raw>
+    <h2 class="center no-mb color-secondary">
+      El tiempo de respuesta es importante
+    </h2>
+  </mj-raw>
+  <!-- divider -->
+  <mj-include path="../../includes/mjml/global_divider.mjml" />
+  <mj-raw>
+    <p class="center font-family no-mt">
+      Responder lo antes posible puede ayudar a que el alquiler se confirme.
+    </p>
+  </mj-raw>
+</mj-wrapper>

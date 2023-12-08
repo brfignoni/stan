@@ -1,0 +1,16 @@
+<mj-section>
+  <mj-group>
+    <mj-column width="60%">
+      <mj-text>
+        <p><strong>Total a cobrar</strong></p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="40%">
+      <mj-text align="right">
+        <p>
+          <strong><span>USD</span> <span>170</span></strong>
+        </p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>

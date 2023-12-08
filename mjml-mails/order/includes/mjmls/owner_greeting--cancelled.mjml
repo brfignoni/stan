@@ -1,0 +1,8 @@
+<mj-raw>
+  <div class="base">
+    <h2>
+      ¡Hola, <span id="name">Maximiliano!</span><br />la siguiente orden ha sido
+      cancelada :(
+    </h2>
+  </div>
+</mj-raw>

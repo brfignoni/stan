@@ -1,0 +1,37 @@
+<mj-section>
+  <mj-group>
+    <!-- community fee -->
+    <mj-column width="70%">
+      <mj-text>
+        <p>Cuota de la comunidad</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="30%">
+      <mj-text align="right">
+        <p><span>USD</span> <span>34</span></p>
+      </mj-text>
+    </mj-column>
+    <!-- days discount -->
+    <mj-column width="70%" mj-class="space-top">
+      <mj-text>
+        <p>Descuento X jornadas / X%</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="30%" mj-class="space-top">
+      <mj-text align="right">
+        <p>- <span>USD</span> <span>20</span></p>
+      </mj-text>
+    </mj-column>
+    <!-- owner coupon -->
+    <mj-column width="70%" mj-class="space-top">
+      <mj-text>
+        <p>Cupón paga owner</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="30%" mj-class="space-top">
+      <mj-text align="right">
+        <p><span>USD</span> <span>10</span></p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>

@@ -1,0 +1,10 @@
+<mj-raw>
+  <header class="master-center main-header">
+    <img
+      src="https://stan-mjml.netlify.app/assets/images/stan-logo-white.png"
+      alt="stan logo"
+      width="130px"
+    />
+    <h1 class="color-gray-white">¡Orden enviada!</h1>
+  </header>
+</mj-raw>

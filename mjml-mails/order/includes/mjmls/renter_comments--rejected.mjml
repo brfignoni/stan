@@ -1,0 +1,10 @@
+<mj-section>
+  <mj-column>
+    <mj-text>
+      <h3>Comentarios:</h3>
+      <p id="comments">
+        Hola! Buenas noches. No está disponible para la fecha.
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>

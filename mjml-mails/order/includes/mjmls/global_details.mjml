@@ -1,0 +1,56 @@
+<mj-section>
+  <mj-group>
+    <mj-column width="60%">
+      <mj-text>
+        <p>Fecha de retiro:</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="40%">
+      <mj-text align="right">
+        <p id="">12/12/2023</p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section mj-class="space-top">
+  <mj-group>
+    <mj-column width="60%">
+      <mj-text>
+        <p>Fecha de devolución:</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="40%">
+      <mj-text align="right">
+        <p>14/12/2023</p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section mj-class="space-top">
+  <mj-group>
+    <mj-column width="60%">
+      <mj-text>
+        <p>Cantidad de jornadas:</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="40%">
+      <mj-text align="right">
+        <p>3</p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section mj-class="space-top">
+  <mj-group>
+    <mj-column width="60%">
+      <mj-text>
+        <p>Solicitante:</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="40%">
+      <mj-text align="right">
+        <p>Elon Musk</p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>

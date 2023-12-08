@@ -1,0 +1,1 @@
+mjmls significa mjml simplificado. Utiliza menos etiquetas mjml para lograr un correo de menor peso.

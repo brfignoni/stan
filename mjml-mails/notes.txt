@@ -2,6 +2,7 @@ Comandos
 
 watch mjml emails (mjml-mails/order/layouts):
 mjml -w ./mjml/*.mjml -o ./html/
+mjml -w ./mjmls/*.mjml -o ./htmls/
 
 ------------------------------------------------
 

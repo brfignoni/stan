@@ -25,6 +25,11 @@
     ORDER DETAILS
     ******************** -->
     <mj-wrapper css-class="wrapper">
+      <mj-column width=""> </mj-column>
+      <table>
+        <mj-text> </mj-text>
+      </table>
+
       <!-- header -->
       <mj-section>
         <mj-column>

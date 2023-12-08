@@ -1,0 +1,9 @@
+<mj-raw>
+  <div class="base">
+    <h2>
+      ¡Hola, <span id="name">Maximiliano!</span><br />Tenés una nueva orden para
+      aprobar!
+    </h2>
+    <p>Aceptala para empezar a hacer $$$</p>
+  </div>
+</mj-raw>

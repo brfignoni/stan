@@ -1,0 +1,6 @@
+<mj-raw>
+  <div class="base">
+    <h2>¡Hola, <span id="name">Diego!</span><br />Tu orden fue enviada.</h2>
+    <p>Te notificaremos una vez el propietario la apruebe.</p>
+  </div>
+</mj-raw>

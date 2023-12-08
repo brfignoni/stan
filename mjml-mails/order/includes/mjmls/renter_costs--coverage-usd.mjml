@@ -1,0 +1,59 @@
+<mj-section>
+  <mj-group>
+    <mj-column width="70%">
+      <mj-text>
+        <p>Cobertura Stan:</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="30%">
+      <mj-text align="right">
+        <p><span>USD</span> <span>50</span></p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-section mj-class="space-top">
+  <mj-group>
+    <mj-column width="70%">
+      <mj-text>
+        <p>Cuota de la comunidad</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="30%">
+      <mj-text align="right">
+        <p><span>USD</span> <span>34</span></p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-section mj-class="space-top">
+  <mj-group>
+    <mj-column width="70%">
+      <mj-text>
+        <p>Descuento X jornadas / X%:</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="30%">
+      <mj-text align="right" mj-class="color-success">
+        <p>- <span>USD</span> <span>20</span></p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-section mj-class="space-top">
+  <mj-group>
+    <mj-column width="60%">
+      <mj-text>
+        <p>Cupón de descuento:</p>
+      </mj-text>
+    </mj-column>
+    <mj-column width="40%">
+      <mj-text align="right" mj-class="color-success">
+        <p>- <span>USD</span> <span>34</span></p>
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
