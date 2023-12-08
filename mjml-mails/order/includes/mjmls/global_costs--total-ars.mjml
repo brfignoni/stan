@@ -8,7 +8,9 @@
     <mj-column width="40%">
       <mj-text align="right">
         <p>
-          <strong><span>ARS</span> <span>2000</span></strong>
+          <strong
+            ><span>ARS</span> <span class="stan-replace">2000</span></strong
+          >
         </p>
       </mj-text>
     </mj-column>

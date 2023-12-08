@@ -1,8 +1,8 @@
 <mj-raw>
   <div class="base">
     <h2>
-      ¡Hola, <span id="name">Maximiliano!</span><br />Tu reserva fue confirmada
-      y paga!
+      ¡Hola, <span class="stan-replace">Maximiliano!</span><br />Tu reserva fue
+      confirmada y paga!
     </h2>
     <p>Podés usar el chat para ajustar detalles del retiro y devolución.</p>
   </div>

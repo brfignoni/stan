@@ -8,7 +8,7 @@
     </mj-column>
     <mj-column width="30%">
       <mj-text align="right">
-        <p><span>USD</span> <span>34</span></p>
+        <p><span>USD</span> <span class="stan-replace">34</span></p>
       </mj-text>
     </mj-column>
     <!-- days discount -->
@@ -19,7 +19,7 @@
     </mj-column>
     <mj-column width="30%" mj-class="space-top">
       <mj-text align="right">
-        <p>- <span>USD</span> <span>20</span></p>
+        <p>- <span>USD</span> <span class="stan-replace">20</span></p>
       </mj-text>
     </mj-column>
     <!-- owner coupon -->
@@ -30,7 +30,7 @@
     </mj-column>
     <mj-column width="30%" mj-class="space-top">
       <mj-text align="right">
-        <p><span>USD</span> <span>10</span></p>
+        <p><span>USD</span> <span class="stan-replace">10</span></p>
       </mj-text>
     </mj-column>
   </mj-group>

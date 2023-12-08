@@ -2,7 +2,7 @@
   <mj-column>
     <mj-text>
       <h3>Comentarios:</h3>
-      <p id="comments">
+      <p>
         Hola! Buenas noches. Podemos coordinar para tal hora o tal hora, este
         mensaje es de demostración.
       </p>

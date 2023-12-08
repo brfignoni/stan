@@ -1,6 +1,9 @@
 <mj-raw>
   <div class="base">
-    <h2>¡Hola, <span id="name">Diego!</span><br />¡Tu orden fue confirmada!</h2>
+    <h2>
+      ¡Hola, <span class="stan-replace">Diego!</span><br />¡Tu orden fue
+      confirmada!
+    </h2>
     <p>
       Recordá que podés usar el chat para ajustar detalles sobre el retiro y la
       devolución.

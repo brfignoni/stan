@@ -7,7 +7,7 @@
     </mj-column>
     <mj-column width="40%">
       <mj-text align="right">
-        <p id="">12/12/2023</p>
+        <p class="stan-replace">12/12/2023</p>
       </mj-text>
     </mj-column>
   </mj-group>
@@ -21,7 +21,7 @@
     </mj-column>
     <mj-column width="40%">
       <mj-text align="right">
-        <p>14/12/2023</p>
+        <p class="stan-replace">14/12/2023</p>
       </mj-text>
     </mj-column>
   </mj-group>
@@ -35,7 +35,7 @@
     </mj-column>
     <mj-column width="40%">
       <mj-text align="right">
-        <p>3</p>
+        <p class="stan-replace">3</p>
       </mj-text>
     </mj-column>
   </mj-group>
@@ -49,7 +49,7 @@
     </mj-column>
     <mj-column width="40%">
       <mj-text align="right">
-        <p>Elon Musk</p>
+        <p class="stan-replace">Elon Musk</p>
       </mj-text>
     </mj-column>
   </mj-group>

@@ -7,7 +7,7 @@
     </mj-column>
     <mj-column width="30%">
       <mj-text align="right">
-        <p><span>USD</span> <span>34</span></p>
+        <p><span>USD</span> <span class="stan-replace">34</span></p>
       </mj-text>
     </mj-column>
   </mj-group>
@@ -22,7 +22,7 @@
     </mj-column>
     <mj-column width="30%">
       <mj-text align="right" mj-class="color-success">
-        <p>- <span>USD</span> <span>20</span></p>
+        <p>- <span>USD</span> <span class="stan-replace">20</span></p>
       </mj-text>
     </mj-column>
   </mj-group>
@@ -37,7 +37,7 @@
     </mj-column>
     <mj-column width="40%">
       <mj-text align="right" mj-class="color-success">
-        <p>- <span>USD</span> <span>34</span></p>
+        <p>- <span>USD</span> <span class="stan-replace">34</span></p>
       </mj-text>
     </mj-column>
   </mj-group>

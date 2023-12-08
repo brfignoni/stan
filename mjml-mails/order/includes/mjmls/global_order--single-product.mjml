@@ -1,7 +1,7 @@
 <mj-section>
   <mj-raw>
     <!-- Order | title -->
-    <h3 class="align-left">Órden: <span id="order-id">#RWMDR2</span></h3>
+    <h3 class="align-left">Órden: <span class="stan-replace">#RWMDR2</span></h3>
   </mj-raw>
   <mj-group>
     <!-- Order | item -->
@@ -9,6 +9,7 @@
       mj-class="space-right space-top"
       width="15%"
       vertical-align="middle"
+      css-class="stan-replace"
     >
       <mj-image
         css-class="object-fit"
@@ -19,7 +20,7 @@
     </mj-column>
     <mj-column mj-class="space-top" width="85%" vertical-align="middle">
       <mj-text>
-        <h4>Cámara vintage tipo arte.</h4>
+        <h4 class="stan-replace">Cámara vintage tipo arte.</h4>
       </mj-text>
     </mj-column>
   </mj-group>

@@ -7,7 +7,7 @@
     </mj-column>
     <mj-column width="30%">
       <mj-text align="right">
-        <p><span>ARS</span> <span>3400</span></p>
+        <p><span>ARS</span> <span class="stan-replace">3400</span></p>
       </mj-text>
     </mj-column>
   </mj-group>
@@ -22,7 +22,7 @@
     </mj-column>
     <mj-column width="30%">
       <mj-text align="right" mj-class="color-success">
-        <p>- <span>ARS</span> <span>2000</span></p>
+        <p>- <span>ARS</span> <span class="stan-replace">2000</span></p>
       </mj-text>
     </mj-column>
   </mj-group>
@@ -37,7 +37,7 @@
     </mj-column>
     <mj-column width="40%">
       <mj-text align="right" mj-class="color-success">
-        <p>- <span>ARS</span> <span>3400</span></p>
+        <p>- <span>ARS</span> <span class="stan-replace">3400</span></p>
       </mj-text>
     </mj-column>
   </mj-group>

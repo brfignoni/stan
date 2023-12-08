@@ -1,8 +1,8 @@
 <mj-raw>
   <div class="base">
     <h2>
-      ¡Hola, <span id="name">Maximiliano!</span><br />Aprobaste la siguiente
-      orden.
+      ¡Hola, <span class="stan-replace">Maximiliano!</span><br />Aprobaste la
+      siguiente orden.
     </h2>
     <p>
       Una vez el arrendatario realice el pago quedará la reserva confirmada.
