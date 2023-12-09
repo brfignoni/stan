@@ -34,11 +34,6 @@
         padding: 64px 16px;
         color: #fff;
       }
-      h1 {
-        margin-top: 0;
-        margin-bottom: 0;
-        line-height: 0;
-      }
       h2 {
         margin-top: 0;
         font-size: 18px;
@@ -49,6 +44,11 @@
         line-height: 20px;
         font-weight: 500;
         line-height: 1.55em;
+      }
+      .main-title {
+        color: #021b3b;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 0;
       }
       .card {
         color: #262940;
@@ -66,6 +66,13 @@
       }
       .button:hover {
         transform: scale(1.05);
+      }
+      .button {
+        background-color: #021b3b;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 12px 24px;
       }
       a {
         color: #ffa400;
@@ -101,12 +108,7 @@
       <div class="wrapper">
         <div class="inner-wrapper">
           <div class="header">
-            <h1>
-              <img
-                src="https://storage.googleapis.com/stan-us-c1-backend-bucket/stan_emails/confirma-tu-email.png"
-                alt="confirma tu email!"
-              />
-            </h1>
+            <h1 class="main-title">!CONFIRMA TU EMAIL!</h1>
           </div>
           <div class="main">
             <div class="card">
@@ -121,12 +123,8 @@
                 comunicarnos contigo necesitamos que compruebes que este correo
                 electrónico te pertenece.
               </p>
-              <a href="www.google.com" target="_blank">
-                <img
-                  class="button"
-                  src="https://storage.googleapis.com/stan-us-c1-backend-bucket/stan_emails/confirmar-button.png"
-                  alt="confirmar button"
-                />
+              <a href="www.google.com" target="_blank" class="button">
+                CONFIRMAR
               </a>
             </div>
           </div>
@@ -143,12 +141,3 @@
     </div>
   </body>
 </html>
-
-<div style="background-color: red; border-radius: 100%; overflow: hidden">
-  <img
-    class="illustration"
-    src="https://storage.googleapis.com/stan-us-c1-backend-bucket/stan_emails/illustration.png"
-    alt="illustration"
-    style="width: 100%; max-width: 100%"
-  />
-</div>
